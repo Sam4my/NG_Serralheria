@@ -4,6 +4,10 @@
     src: url(./Fontes/Orbitron-Bold.ttf);
 }
 @font-face {
+    font-family: Orbitron;
+    src: url(./Fontes/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
     font-family: ChangaOne-Regular;
     src: url(./Fontes/ChangaOne-Regular.ttf);
 }
@@ -29,6 +33,9 @@ body{
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+section{
+    padding: 2rem 9%;
+}
 header{
     display: flex;
     position: fixed;
@@ -53,17 +60,30 @@ header .logo span{
 }
 
 .inicio{
-    background-image: url(./Fotos/img-principal-editada.png);
-    padding: 205px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url(./Fotos/img-principal-editada.png) no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.txt_inicio{
+    color: rgba(204, 204, 204, 0.74);
+    background-color: rgba(75, 75, 75, 0.959);
+    border-radius: 20px;
+    font-family: Orbitron;
+    max-width: 50rem;
+    margin-top: 25%;
 }
 
-.txt_inicio{
-    color: rgba(247, 247, 247, 0.719);
-    background-color: rgba(158, 32, 32, 0.438);
-    border-radius: 20px;
-    
+.txt_inicio > h1{
+    font-family: ChangaOne-Regular;
+    font-size: 20px;
+    color: rgb(87, 15, 15);
+}
+.txt_inicio > h1 > span{
+    font-family: Orbitron-Bold;
+    color: black;
 }
 
 nav{
@@ -88,7 +108,7 @@ main{
 .slides{
     width: 400px;
     height: 300px;
-    outline: 3px solid rgba(166, 3, 3, 0.69);
+    outline: 3px solid rgba(255, 252, 252, 0.69);
     overflow: hidden;
     margin: 50px auto;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
@@ -144,7 +164,7 @@ section{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 200px;
+    margin: 0px;
     padding: 13px;
     text-align: center;
 }
@@ -181,4 +201,8 @@ footer{
     margin-top: 20px;
     border-top: 0.4px solid rgb(184, 30, 25);
     text-align: center;  
+}
+
+footer .sobrenos a:hover{
+    color:var(--grey);
 }
