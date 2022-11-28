@@ -1,0 +1,35 @@
+
+.header {
+    margin-bottom: 40px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.integrants {
+    height: auto;
+    width: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.texto {
+    word-wrap: break-word;
+    text-align: justify;
+    max-width: 500px;
+}
+
+.footer {
+    margin-bottom: 40px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
