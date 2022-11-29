@@ -74,6 +74,7 @@ header .logo span{
     font-family: Orbitron;
     max-width: 50rem;
     margin-top: 25%;
+    padding: 30px;
 }
 
 .txt_inicio > h1{
@@ -156,10 +157,7 @@ article{
     padding: 16px;
     margin: 20px 15% 10px 15%;
 }
-.cartao{
-    background-color: rgba(184, 184, 184, 0.342);
-    border-radius: 15px;
-}
+
 section{
     display: flex;
     flex-direction: column;
@@ -173,25 +171,51 @@ section img{
     width: 100px;
 }
 .box{
-    color: blanchedalmond;
-    align-items: center;
+    position: relative;
+    background-color: rgb(175, 174, 174);
+    padding: 50px 10px;
+    width: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.5s;
     text-align: center;
     justify-content: center;
-    align-self: center;
-    background-color: rgb(138, 12, 12);
-    border-radius: 79px;
-    width: auto;
-    margin-block: 10px;
 }
 .imagens{
     width: 400px;
     height: 300px;
 }
-.cartoes{
-    flex-direction: row;
-    /* display: flex; */
-    justify-content: center;
-}
+ section .fileira{
+    margin: -15px -15px;
+    justify-content: flex-start;
+    direction: ltr;
+    item: margin 15px 15px;
+ }
+ section .cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    direction: var(--direction);
+    justify-content: space-around;
+    margin: 10px;
+ }
+ section .card{
+    position: relative;
+    background-color: rgb(175, 174, 174);
+    padding: 40px 10px;
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+ }
+ section .card_Imag{
+    width: 250px;
+ }
 /* rodape da pagina */
 
 footer{
@@ -200,9 +224,9 @@ footer{
     padding: 25px;
     margin-top: 20px;
     border-top: 0.4px solid rgb(184, 30, 25);
-    text-align: center;  
+    text-align: center;
 }
 
 footer .sobrenos a:hover{
-    color:var(--grey);
+    color:rgb(139, 139, 139);
 }
