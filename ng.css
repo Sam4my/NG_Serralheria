@@ -16,7 +16,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     outline: none;
     border: none;
@@ -158,30 +157,10 @@ h3{
     margin: 20px 15% 10px 15%;
 }
 
-.box{
-    background-color: rgb(175, 174, 174);
-    padding: 25px 10px;
-    max-width: 416px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    font-size: 20px;
-    overflow: hidden;
-    text-align: center;
-    justify-content: center;
-}
-.cartoes{
-display: flex;
-flex-direction: row;
-height: 50px;
-}
-
-.imagens{
-    width: 400px;
-    height: 300px;
-}
- section .fileira{
+.fileira{
     display: flex;
     flex-direction: row;
+    justify-content: center;
  }
  .card{
     margin: 25px;
@@ -201,9 +180,8 @@ height: 50px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 2rem;
-    height: 100%;
-    width: 100%;
+    padding: 0 2rem
+
 }
 
 .card-text h1{
@@ -226,6 +204,28 @@ height: 50px;
     border-radius: 1rem;
     font-weight: 600;
     width: 100%;
+}
+
+.box{
+    background-color: rgb(175, 174, 174);
+    padding: 25px 10px;
+    max-width: 416px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.cartoes{
+display: flex;
+flex-direction: row;
+height: 50px;
+}
+
+.imagens{
+    width: 400px;
+    height: 300px;
 }
 /* rodape da pagina */
 
