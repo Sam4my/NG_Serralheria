@@ -216,6 +216,8 @@ h3{
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin: auto;
+    margin-top: 15px;
 }
 .cartoes{
 display: flex;
